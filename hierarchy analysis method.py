@@ -63,4 +63,4 @@ print(name)
 # Цикл нужен для того, чтобы выводить пользователю
 # критерии и их рассчитанный коэффициент в удобной форме
 for i, criteria in enumerate(criteria_data):
-    print(f"Весовой коэффициент {criteria}: {round(sum_line[i] / comparison_amount, 2)}")
+    print(f"Весовой коэффициент "{criteria}": {round(sum_line[i] / comparison_amount, 2)}")
